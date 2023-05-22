@@ -1,0 +1,26 @@
+body {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #9EB1BB;
+    /* d-flex justify-content-center align-items-center */
+    /*  以下三行 等於 在html body class 中寫 的
+     display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.text-input {
+    width: 250px;
+}
+
+.email,
+.password {
+    position: relative;
+}
+
+i {
+    position: absolute;
+    top: 32px;
+    left: 6px;
+}
